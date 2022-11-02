@@ -18,8 +18,8 @@ def cipher(text, shift, encrypt=True):
 
     Examples
     ---------
-    >>>from cipher_lyc2121 import lyc2121
-    >>> cipher('Potato', 2, encrypt=True)
+    >>> from cipher_lyc2121 import cipher_lyc2121
+    >>> cipher_lyc2121.cipher('Potato', 2, encrypt=True)
     'Rqvcvq'
     """
     
